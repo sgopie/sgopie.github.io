@@ -39,3 +39,11 @@ body {
 #icon{
     color: var(--emerald);
 }
+
+#card1{    
+    background-color: purple;
+}
+
+#card2{
+    background-color: rgb(28, 141, 179);
+}
