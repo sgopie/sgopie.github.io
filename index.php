@@ -10,12 +10,12 @@
 <body>
 <header>
     <nav>
-        <a href="index.php">Home</a>
+        <a href="index.html">Home</a>
         <a href="projecten.php">Projects</a>
         <a href="about-me.php">About me</a>
         <a href="contact.php">Contacts</a>
     </nav>
-    <h1 style="align-items: center">Welcome to my portfolio!</h1>
+    <h1>Welcome to my portfolio!</h1>
 </header>
 <main class="wrapper">
 <!--    img src="img/sudhir-17-06-2024.jpg" class="col-3" alt="sudhir" height="700px">-->
@@ -47,13 +47,17 @@
         --columbia-blue: #BFD1E5;
     }
     body {
-        background-color: var(--jet);
+        background-color: var(--rich-black);
         color: var(--emerald);
         font-family: "Century Gothic", serif;
     }
     .wrapper{
         display: grid;
         grid-template-columns: repeat(6,1fr);
+    }
+    a{
+        color: var(--vivid-sky-blue);
+        text-decoration: none;
     }
 </style>
 
